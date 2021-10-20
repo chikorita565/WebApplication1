@@ -1,10 +1,42 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    // ViewData["Title"] = "Home page";
 }
-<h1>Hello HAHAHAHAHAHAHHAHA </h1>
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+<section class="site-title">
+    <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+        <h3>Tours & Travels</h3>
+        <h1>Amazing Place on Earth</h1>
+        <button class="btn">Explore</button>
+    </div>
+</section>
+
+main .site-title{
+    background: url('../assets/Background-image.png');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .site-title h1, h3{
+    margin: .3rem;
+}
+
+main .site-title .btn{
+    margin: 1.8rem;
+    background: var(--sky);
+}
+
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
