@@ -171,7 +171,7 @@ p {
 
 /* --------------- Site title ---------------- */
 main .site-title {
-    background: url('/WebApplication1/wwwroot/assets/Background-image.png');
+    background: url('/WebApplication1/WebApplication1/WebApplication1/wwwroot/assets/Background-image.png');
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -204,7 +204,7 @@ main .site-title {
 /* --------------- Blog Carousel ------------ */
 
 main .blog {
-    background: url('/WebApplication1/wwwroot/assets/Abract01.png');
+    background: url('/WebApplication1/WebApplication1/WebApplication1/wwwroot/assets/Abract01.png');
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
